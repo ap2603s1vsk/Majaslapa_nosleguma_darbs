@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasākumu laimes rats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="virs">
+        IEGRIEZ RATU UN SKATIES, KĀDU ATRAKCIJU DABŪSI ŠODIEN!
+    </h1>
+
+    <div class="wheel-container">
+        <canvas id="raffleWheel" width="500" height="500"></canvas>
+        <div class="pointer"></div>
+    </div>
+
+    <button id="podzina">Iegriez ratu!!</button>
+
+    <div class="laikakaste">
+        <p id="garais"></p>
+    </div>
+
+    <div id="popup" class="popup" style="display: none;">
+        <p>TEV IZVĒLĒTAIS PASĀKUMS IR: <span id="nosaukums"></span></p>
+        <button id="vairakinfopoga">Lai uzzinātu vairāk info par pasākumu, spied šeit!</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
